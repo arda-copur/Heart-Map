@@ -25,7 +25,7 @@ A captivating Flutter-based mobile game that tests your geographical knowledge b
 - Clean, modular architecture following be
 
 
-### Architecture
+### 📌 Architecture
 - **BLoC Pattern** for state management (flutter_bloc)
 - **Provider** for dependency injection
 - **GetIt** for service location
@@ -34,7 +34,7 @@ A captivating Flutter-based mobile game that tests your geographical knowledge b
 - Modular structure for easy scalability
 
 
-### Packages
+### 🔥 Packages
 ```yaml
 dependencies:
   provider: ^6.1.2 
