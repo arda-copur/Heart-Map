@@ -26,8 +26,8 @@ A captivating Flutter-based mobile game that tests your geographical knowledge b
 
 
 ### 📌 Architecture
-- **BLoC Pattern** for state management (flutter_bloc)
-- **Provider** for dependency injection
+- **BLoC Pattern** for state management
+- **Provider** for state management and dependency injection
 - **GetIt** for service location
 - Custom base classes (BaseView, BaseViewModel, BaseState)
 - Atomic widget design for maximum reusability
