@@ -1,0 +1,109 @@
+name: heartmap
+description: "A new Flutter project."
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #State Management
+  provider: ^6.1.2
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.7
+  #Network
+  dio: ^5.7.0
+  connectivity_plus: ^6.0.3
+  #UI
+  confetti: ^0.8.0
+  animated_text_kit: ^4.2.2
+  google_maps_flutter: ^2.5.3
+  #Audio
+  audioplayers: ^5.2.1
+  #Dependency Injection
+  get_it: ^8.0.1
+  #Logger
+  logger: ^2.5.0
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  #Dev Splash Screen
+  flutter_native_splash: ^2.3.10
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/images/
+    - assets/fonts/
+    - assets/sounds/
+    - assets/animation/
+
+
+ 
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Kanit
+      fonts:
+        - asset: assets/fonts/Kanit-Bold.ttf
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+flutter_native_splash:
+  image: assets/animation/app_splash.gif
+  color: "#ffffff"  
+  android: true  
+  ios: true  
+  web: false  
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
