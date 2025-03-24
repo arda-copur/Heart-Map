@@ -1,3 +1,7 @@
+# City Guesser Game 🗺️
+
+A captivating Flutter-based mobile game that tests your geographical knowledge by guessing cities based on Google Maps markers.
+
 ## 📱 Screenshots
 
 <div align="center">
@@ -10,10 +14,6 @@
   <img src="assets/screenshots/7.png" width="30%" hspace="5" vspace="5">
   <img src="assets/screenshots/8.png" width="30%" hspace="5" vspace="5">
 </div>
-
-# City Guesser Game 🗺️
-
-A captivating Flutter-based mobile game that tests your geographical knowledge by guessing cities based on Google Maps markers.
 
 ## 🌟 Features
 
