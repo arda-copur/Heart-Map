@@ -35,16 +35,14 @@ A captivating Flutter-based mobile game that tests your geographical knowledge b
 
 
 ### 🔥 Packages
-```yaml
-dependencies:
-  provider: ^6.1.2 
-  flutter_bloc: ^8.1.6
-  equatable: ^2.0.7
-  dio: ^5.7.0
-  connectivity_plus: ^6.0.3
-  confetti: ^0.8.0
-  animated_text_kit: ^4.2.2
-  google_maps_flutter: ^2.5.3
-  audioplayers: ^5.2.1
-  get_it: ^8.0.1
-  logger: ^2.5.0
+- provider
+- flutter_bloc
+- equatable
+- dio
+- connectivity_plus
+- confetti
+- animated_text_kit
+- google_maps_flutter
+- audioplayers
+- get_it
+- logger
