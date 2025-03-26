@@ -2,6 +2,8 @@
 
 A captivating Flutter-based mobile game that tests your geographical knowledge by guessing cities based on Google Maps markers.
 
+Note: I am continuing to develop this project and will soon start releasing version 2. Therefore, it is natural for you to see some unused code structures in version 1. Please let me know if you have any advice or suggestions.
+
 ## 📱 Screenshots
 
 <div align="center">
