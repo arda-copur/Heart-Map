@@ -1,5 +1,5 @@
 class WelcomePageConfig {
-  static const String title = 'Hoş Geldiniz📍';
+  static const String title = 'HOŞ GELDİNİZ';
   static const String startGame = 'Oyuna başla';
   static const String howToPlay = 'Nasıl oynanır?';
   static const String exit = 'Çıkış';

@@ -38,7 +38,6 @@ class AppTheme {
     scrim: Color(0xff000000),
     inverseSurface: Color(0xff333027),
     inversePrimary: Color(0xffdbc66e),
-    
   );
 
   //Paddings

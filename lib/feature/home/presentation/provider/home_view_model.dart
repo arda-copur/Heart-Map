@@ -9,11 +9,12 @@ class HomeViewModel with ChangeNotifier {
   late AnimationController _shakeController;
   bool _isMapLoaded = false;
   GoogleMapController? _mapController;
+  bool _isDisposed = false;
 
   HomeViewModel(TickerProvider vsync) {
     try {
       _confettiController =
-          ConfettiController(duration: const Duration(seconds: 5));
+          ConfettiController(duration: const Duration(seconds: 2));
       _shakeController = AnimationController(
         duration: const Duration(milliseconds: 500),
         vsync: vsync,
@@ -41,9 +42,15 @@ class HomeViewModel with ChangeNotifier {
 
   void onMapCreated(GoogleMapController controller) async {
     try {
+      if (_mapController != null && _mapController != controller) {
+        _mapController!.dispose();
+      }
+
       _mapController = controller;
+      debugPrint("MapController oluşturuldu");
       setMapLoaded(true);
     } catch (e, stack) {
+      debugPrint("MapController oluşturulurken hata: $e");
       ErrorManager.handleError(
         AppError(
             message: "MapController oluşturulurken hata oluştu.",
@@ -84,9 +91,21 @@ class HomeViewModel with ChangeNotifier {
 
   @override
   void dispose() {
+    if (_isDisposed) return;
+    _isDisposed = true;
+
     try {
-      _confettiController.dispose();
+      if (_confettiController.state != ConfettiControllerState.disposed) {
+        _confettiController.dispose();
+      }
+      if (_shakeController.isAnimating) {
+        _shakeController.stop();
+      }
       _shakeController.dispose();
+      if (_mapController != null) {
+        _mapController!.dispose();
+        _mapController = null;
+      }
     } catch (e, stack) {
       ErrorManager.handleError(
         AppError(
