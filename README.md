@@ -1,34 +1,50 @@
-# heartmap
+# City Guesser Game 🗺️
 
-A new Flutter project.
+A captivating Flutter-based mobile game that tests your geographical knowledge by guessing cities based on Google Maps markers.
 
-## Getting Started
+Note: I am continuing to develop this project and will soon start releasing version 2. Therefore, it is natural for you to see some unused code structures in version 1. Please let me know if you have any advice or suggestions.
 
-This project is a starting point for a Flutter application.
+## 📱 Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+<div align="center">
+  <img src="assets/screenshots/1.png" width="30%" hspace="5" vspace="5">
+  <img src="assets/screenshots/2.png" width="30%" hspace="5" vspace="5">
+  <img src="assets/screenshots/3.png" width="30%" hspace="5" vspace="5">
+  <img src="assets/screenshots/4.png" width="30%" hspace="5" vspace="5">
+  <img src="assets/screenshots/5.png" width="30%" hspace="5" vspace="5">
+  <img src="assets/screenshots/6.png" width="30%" hspace="5" vspace="5">
+  <img src="assets/screenshots/7.png" width="30%" hspace="5" vspace="5">
+  <img src="assets/screenshots/8.png" width="30%" hspace="5" vspace="5">
+</div>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🌟 Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Interactive Google Maps integration with custom markers
+- Engaging city guessing gameplay
+- Visual and audio feedback system
+- Celebration animations for correct answers
+- Network-aware application with offline capabilities
+- Clean, modular architecture following be
 
-CORE/FEATURE KLASÖRLEME
-1# Core ana hatlar ve temel işler(dio manager, iDioManager, ErrorManager vb. gibi temel base servisler,apperrors, apptheme, app routes,utils,widgets,networkmanager)
-2# Feature proje bazlı geliştirlemeler:
-Fakat içerisi modül modül yapılandırır.
-Örnek olarak bir Home ekranı varsa.
-2.1# Home klasörü açılır > İçerisine data-domain-presentation klasörleri açılır.
-2.1.0# Data => models-datasources-repositories klasörleri açılır
-models : Home ekranı için kullanılacak model classları
-datasources: servislere/apiye istek atacak kaynaklar
-repositories: pattern yönetimi
-2.1.1# Domain => entities-usecases klasörleri açılır
-entities: temiz mimari için
-usecases: business logic
-2.1.2# Presentation => ui  yönetim işleri. pages-widgets-ve state yönetimi için bir viewmodel. burada bazen bloc bazen provider ile viewmodel kullanıcaz
-pages: home ekranı
-widgets: home ekranına özel widgetlar
-bloc: home ekranı stateini yönetecek bloc yapısı
+
+### 📌 Architecture
+- **BLoC Pattern** for state management
+- **Provider** for state management and dependency injection
+- **GetIt** for service location
+- Custom base classes (BaseView, BaseViewModel, BaseState)
+- Atomic widget design for maximum reusability
+- Modular structure for easy scalability
+
+
+### 🔥 Packages
+- provider
+- flutter_bloc
+- equatable
+- dio
+- connectivity_plus
+- confetti
+- animated_text_kit
+- google_maps_flutter
+- audioplayers
+- get_it
+- logger
