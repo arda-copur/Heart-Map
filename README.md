@@ -51,9 +51,9 @@ Note: I am continuing to develop this project and will soon start releasing vers
 
 ## 📱 V2 Screenshots
 <div align="center">
-  <img src="assets/screenshots/v1_1.png" width="30%" hspace="5" vspace="5">
+  <img src="assets/screenshots/v2_1.png" width="30%" hspace="5" vspace="5">
   <img src="assets/screenshots/v2_2.png" width="30%" hspace="5" vspace="5">
-  <img src="assets/screenshots/v3_3.png" width="30%" hspace="5" vspace="5">
+  <img src="assets/screenshots/v2_3.png" width="30%" hspace="5" vspace="5">
 </div>
 
 
