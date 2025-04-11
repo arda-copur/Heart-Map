@@ -48,3 +48,24 @@ Note: I am continuing to develop this project and will soon start releasing vers
 - audioplayers
 - get_it
 - logger
+
+## 📱 V2 Screenshots
+<div align="center">
+  <img src="assets/screenshots/v1_1.png" width="30%" hspace="5" vspace="5">
+  <img src="assets/screenshots/v2_2.png" width="30%" hspace="5" vspace="5">
+  <img src="assets/screenshots/v3_3.png" width="30%" hspace="5" vspace="5">
+</div>
+
+
+### 🪄 V2 Updates
+
+- **Welcome screen** has been redesigned with engaging animations.
+
+- An **animated country selection screen** has been added, and the selection now affects gameplay.
+
+- **Difficulty levels** have been introduced, allowing players to experience different gameplay styles.
+
+- General bugs have been fixed and the codebase has been **refactored** for improved structure and readability.
+
+
+
